@@ -1,6 +1,5 @@
 import createClient from "@sanity/client";
 
-console.log(process.env)
 export default createClient({
   projectId: process.env.VUE_APP_projectId, 
   dataset: "production", 
