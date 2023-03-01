@@ -11,7 +11,6 @@
       <img v-if="insight.image" :src="imageUrlFor(insight.image).width(480)" />
 
       <h6>{{ insight.subtitle }}</h6>
-      <!-- <SanityBlocks :blocks="child" v-for="child in blocks" :key="child._id" /> -->
       <SanityBlocks :blocks="blocks" />
     </div>
   </div>

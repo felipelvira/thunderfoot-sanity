@@ -4,7 +4,7 @@ export default {
     type: 'document',
     fields: [
         {
-            name: 'title',
+            name: 'logo',
             title: 'Navbar Logo',
             type: 'image',
             options: {

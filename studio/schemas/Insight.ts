@@ -1,3 +1,4 @@
+import { InsightCustomInput } from "../components/InsightCustomInput";
 import { isUniqueAcrossAllDocuments } from "../lib/isUniqueAcrossAllDocuments";
 
 // schemas/Insight.js
@@ -56,6 +57,14 @@ export default {
           title: 'Attribution',
         }
       ]
+    },
+    {
+      name: 'customInput',
+      title: 'Custom Component 1',
+      type: 'string',
+      components: {
+        input: InsightCustomInput
+      }
     },
     {
       title: 'Content',
